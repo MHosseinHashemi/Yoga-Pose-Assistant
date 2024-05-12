@@ -3,10 +3,12 @@ This Python script utilizes the Mediapipe library to perform real-time yoga pose
 
 ### Usage
 
-1. First, ensure you have the necessary dependencies installed.
-2. Clone this repository or download the notebook.
-3. Open the notebook in your preferred Python environment.
-4. Run the cells in the notebook sequentially.
+1. First, ensure you have the necessary dependencies installed
+```
+pip install mediapipe opencv-python numpy
+```
+2. Then clone this repository or download the notebook.
+3. Open the notebook in your preferred Python environment and run it.
 
 ### Features
 
@@ -26,6 +28,7 @@ The notebook includes functions for:
 - [ ] 1. Capture the joints angle and train a DNN on it.
 - [ ] 2. Add more poses.
 - [ ] 3. Deploy it using TF-JS.
+- [ ] 4. Handgestures commands
 
 ### Known Issues
 - For now in some cases, the pose detection may fail to recognize certain poses accurately, leading to incorrect feedback.
