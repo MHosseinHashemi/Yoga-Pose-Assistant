@@ -1,4 +1,5 @@
 # Yoga Pose Visual Assistant
+This Python script utilizes the Mediapipe library to perform real-time yoga pose detection using a real time webcam feed. It can detect various yoga poses and also interpret hand gestures for interactive applications.
 
 ### Usage
 
